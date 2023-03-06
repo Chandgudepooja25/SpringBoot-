@@ -1,6 +1,7 @@
 package edu.coffeeProductioon.entity;
 
 public class Coffee {
+       // This is a Coffee class with varities of coffees
 	private int price;
 	private String name;
 	public int getPrice() {
