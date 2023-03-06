@@ -15,11 +15,12 @@ public class coffeeHouse {
 	private List<Coffee> coffee = new ArrayList<>();
 	public coffeeHouse() 
 	{
+                 // Add coffee to the list
 		coffee.addAll(List.of(new Coffee(250, "Macchiato"), new Coffee(300, "Cortado"), new Coffee(450, "Americano"),
 				new Coffee(550, "Latte"), new Coffee(350, "Instant Coffee"), new Coffee(300, "Flat White")));
 		
 	}
-	
+	//To display all the coffee to the list
 	@RequestMapping(value = "/coffee", method = RequestMethod.GET)
 	Iterable<Coffee> getAllLeds()
 	{
