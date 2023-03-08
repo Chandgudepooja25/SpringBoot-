@@ -5,8 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import StudentTrainer.entity.Trainer;
 
-
+//RestController annotation is used to create RESTful web services 
 @RestController
+//It is use constructor injection to get trainer instance
 public class TrainerController
 {
 	private Trainer trainer;
