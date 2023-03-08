@@ -10,6 +10,7 @@ public class Trainer
 		super();
 		this.subject = subject;
 	}
+	//Printing The Constructor Injections
 	public static void teach()
 	{
 		System.out.println("Trainer is Teach"+ subject.getSubjectname());
